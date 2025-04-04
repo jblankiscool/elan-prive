@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #0f0f0f;
+  color: #f3f3f3;
+}
+a {
+  color: #c0b283;
+  text-decoration: none;
+  margin: 0 15px;
+}
+header, footer {
+  padding: 20px;
+  text-align: center;
+}
+section {
+  padding: 40px;
+  text-align: center;
+}
+nav {
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+input, textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+button {
+  padding: 10px;
+  background: #c0b283;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
